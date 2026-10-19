@@ -12,3 +12,13 @@ yarn-error.log*
 .DS_Store
 *.log
 *.swp
+
+# Terraform
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Claude Code (local only)
+.claude/settings.local.json
+.claude/deploy.log
